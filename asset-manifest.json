@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/eact-budget-deploy-test-app/static/css/main.379658ad.css",
+    "main.js": "/eact-budget-deploy-test-app/static/js/main.9fd3c364.js",
+    "static/js/787.b66e7712.chunk.js": "/eact-budget-deploy-test-app/static/js/787.b66e7712.chunk.js",
+    "index.html": "/eact-budget-deploy-test-app/index.html",
+    "main.379658ad.css.map": "/eact-budget-deploy-test-app/static/css/main.379658ad.css.map",
+    "main.9fd3c364.js.map": "/eact-budget-deploy-test-app/static/js/main.9fd3c364.js.map",
+    "787.b66e7712.chunk.js.map": "/eact-budget-deploy-test-app/static/js/787.b66e7712.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.379658ad.css",
+    "static/js/main.9fd3c364.js"
+  ]
+}
