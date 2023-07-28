@@ -1,0 +1,49 @@
+.item {
+    background-color: var(--mainWhite);
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between; /*flex 요소들 사이에 공간을 두고 배치한다*/
+    transition: all 0.3s linear; /*hover를 할때 해당 효과가 나타나게 할 것임*/
+
+}
+
+.item:hover {
+    width: 100%;
+    transform: scale(1.02); /* 크게 할 것임*/
+}
+
+.info {
+    flex: 0 0 60%; /* 순서대로 flex : flex-grow flex-shrink flex-basis; */
+    display: flex;
+    justify-content: space-between; /*span 요소를 서로 떨어뜨리기 위해*/
+}
+
+.expense {
+    margin-right: 2rem;
+}
+
+.amount {
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 1px 3px;
+}
+
+.clear-btn,
+.edit-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.clear-btn {
+    color: var(--mainRed);
+}
+
+.edit-btn {
+    color: var(--mainGreen);
+}
